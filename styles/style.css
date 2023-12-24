@@ -185,15 +185,6 @@ input{
 .gympsy a:hover{
     color: blue;
 }
-#count{
-    padding: 12px 0px 0px 0px;
-    margin-bottom: -2px;
-}
-.potvrdenie, .potvrdenie a:hover{
-    margin: -5px 0px -10px 0px;
-    font-size: 10pt;
-    color: blue;
-}
 h4{
     background: hsl(0, 0%, 25%);
     color: #f1f1f1;
@@ -263,3 +254,77 @@ h2, h3{
     height: auto;
     max-width: 170px;
 }
+
+.event-container {
+    background-color: #f1f1f1;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 0px 0px 2px 0px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .event-container .event {
+    display: flex;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: auto;
+  }
+  .event{
+    border-style: solid;
+    border-width: 1px;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .event .event-left {
+    width: 33px;
+    min-width: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 0px;
+    font-weight: 600;
+    text-align: center;
+    background: hsl(0, 0%, 25%);
+    border-radius: 5px 0 0 5px
+  }
+  
+  .event .event-left .date {
+    font-size: 16px;
+  }
+  
+  .event .event-left .month {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  .event .event-right {
+    width: auto;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 2px;
+    font-size: 14px;
+  }
+  
+  .event .event-right h3.event-title {
+    font-size: 15px;
+    margin: auto;
+    padding: 3px;
+    color: blue;
+    text-transform: uppercase;
+    font-style: bold;
+  }
+  .event-description{
+    font-size: 13px;
+    margin: auto;
+    padding: 0 3px;
+  }
